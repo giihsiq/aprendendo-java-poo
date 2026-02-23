@@ -1,4 +1,4 @@
-package udemy.devsuperior.estruturacondicional;
+package udemy.devsuperior.estruturacondicional.ifelse;
 
 import java.util.Locale;
 import java.util.Scanner;
