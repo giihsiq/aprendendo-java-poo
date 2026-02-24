@@ -10,23 +10,22 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner scanner = new Scanner(System.in);
 		
-		double xA, xB, xC, yA, yB, yC;
+		Triangle x, y;
+		x = new Triangle();
+		y = new Triangle();
 		
 		System.out.println("Enter the measures of triangle X:");
-		xA = scanner.nextDouble();
-		xB = scanner.nextDouble();
-		xC = scanner.nextDouble();
-		
-		double pX = xA + xB + xC / 2;
-		double areaX = pX * (pX - xA) * (pX - xB) * (pX - xC);
+		x.a = scanner.nextDouble();
+		x.b = scanner.nextDouble();
+		x.c = scanner.nextDouble();
 		
 		System.out.println("Enter the measures of triangle Y:");
-		yA = scanner.nextDouble();
-		yB = scanner.nextDouble();
-		yC = scanner.nextDouble();
+		y.a = scanner.nextDouble();
+		y.b = scanner.nextDouble();
+		y.c = scanner.nextDouble();
 		
-		double pY = yA + yB + yC / 2;
-		double areaY = pX * (pX - yA) * (pX - yB) * (pX - yC);
+		double areaX = x.area();
+		double areaY = y.area();
 		
 		System.out.printf("Triangle X area: %.4f%n", areaX);
 		System.out.printf("Triangle Y area: %.4f%n", areaY);
@@ -40,5 +39,4 @@ public class Program {
 		scanner.close();
 		
 	}
-
 }
