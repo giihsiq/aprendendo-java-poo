@@ -3,7 +3,7 @@ package udemy.devsuperior.poo.exemplo;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class Example {
 
 	public static void main(String[] args) {
 
