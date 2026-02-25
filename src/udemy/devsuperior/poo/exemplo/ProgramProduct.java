@@ -10,36 +10,37 @@ public class ProgramProduct {
 		Locale.setDefault(Locale.US);
 		Scanner scanner = new Scanner(System.in);
 		
-		Product products = new Product();
-		
 		System.out.println("Enter product data:");
 		System.out.print("Name: ");
-		products.name = scanner.nextLine();
+		String name = scanner.nextLine();
 		
 		System.out.print("Price: ");
-		products.price = scanner.nextDouble();
+		double price = scanner.nextDouble();
 		
 		System.out.print("Quantity: ");
-		products.quantity = scanner.nextInt();
-		
-		System.out.println();
-		System.out.println("Products data " + products);
-		
-		System.out.println();
-		System.out.print("Enter the number of products to be added in stock: ");
 		int quantity = scanner.nextInt();
-		products.addProducts(quantity);
+		
+		// Iniciando o construtor da classe Product
+		Product product = new Product(name, price, quantity);
 		
 		System.out.println();
-		System.out.println("Updated data " + products);
+		System.out.println("product data " + product);
 		
 		System.out.println();
-		System.out.print("Enter the number of products to be removed in stock: ");
+		System.out.print("Enter the number of product to be added in stock: ");
 		quantity = scanner.nextInt();
-		products.removeProducts(quantity);
+		product.addProducts(quantity);
 		
 		System.out.println();
-		System.out.println("Udapted data " + products);
+		System.out.println("Updated data " + product);
+		
+		System.out.println();
+		System.out.print("Enter the number of product to be removed in stock: ");
+		quantity = scanner.nextInt();
+		product.removeProducts(quantity);
+		
+		System.out.println();
+		System.out.println("Udapted data " + product);
 		
 		scanner.close();
 		
