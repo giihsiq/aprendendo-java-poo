@@ -1,6 +1,6 @@
 package udemy.devsuperior.poo.exemplo;
 
-public class Products {
+public class Product {
 	
 	public String name;
 	public double price;

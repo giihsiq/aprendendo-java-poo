@@ -3,14 +3,14 @@ package udemy.devsuperior.poo.exemplo;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramProduct {
 
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
 		Scanner scanner = new Scanner(System.in);
 		
-		Products products = new Products();
+		Product products = new Product();
 		
 		System.out.println("Enter product data:");
 		System.out.print("Name: ");
