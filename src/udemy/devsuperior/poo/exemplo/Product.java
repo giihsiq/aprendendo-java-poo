@@ -12,6 +12,15 @@ public class Product {
 		this.quantity = quantity;
 	}
 	
+	/* Sobrecarga = Criar mais de um método para a mesma classe
+	*  -> adicionando ou sem incluir atributos da classe
+	*/
+	
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
 	public double totalValueInStock() {
 		return price * quantity;
 	}
