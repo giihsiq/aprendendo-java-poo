@@ -8,7 +8,7 @@ Este repositório contém a minha progressão, exercícios e projetos desenvolvi
 
 O curso aborda a linguagem Java de forma profunda, unindo uma base teórica sólida com a prática intensiva. Ele é projetado para levar o estudante do nível iniciante ao domínio de conceitos fundamentais para o desenvolvimento de sistemas modernos e para o mercado de trabalho (Back-end).
 
-(Link do Curso)[https://www.udemy.com/share/1013hw3@MOSYLRm8f8_2-zOfnzL6Z66n9BsNpEF8FeuJD1VRcD99Ly3roS1YFGbiK0eMqCdLCA==/]
+[Link do Curso](https://www.udemy.com/share/1013hw3@MOSYLRm8f8_2-zOfnzL6Z66n9BsNpEF8FeuJD1VRcD99Ly3roS1YFGbiK0eMqCdLCA==/)
 
 ---
 
