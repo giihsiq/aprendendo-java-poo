@@ -61,6 +61,6 @@ Durante o curso, foram desenvolvidos sistemas para aplicar os conceitos:
 ## 💻 Tecnologias Utilizadas
 
 * **Linguagem**: Java 17+
-* **IDE**: Eclipse ou IntelliJ IDEA
+* **IDE**: Eclipse
 * **Gerenciador de Dependências**: Maven (em módulos avançados)
 * **Versionamento**: Git e GitHub
