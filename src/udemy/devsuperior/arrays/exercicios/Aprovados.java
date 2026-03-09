@@ -14,7 +14,6 @@ public class Aprovados {
 		int n = scanner.nextInt();
 		
 		String nome[] = new String[n];
-		String nomeAprovado = null;
 		double nota1[] = new double[n];
 		double nota2[] = new double[n];
 		double calculoDasNotas = 0.0;
